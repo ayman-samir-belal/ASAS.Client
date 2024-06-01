@@ -30,6 +30,10 @@ export class AppComponent {
       this.properties=data.result;
       this.spinner.hide();
       console.log(data)
+    },
+    error:err=>{
+      console.log(err);
+      this.spinner.hide();
     }
    })
 
