@@ -5,11 +5,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoadingSpinnerComponent } from './Loader/loading-spinner/loading-spinner.component';
+import { ConfirmationModalComponent } from './confirmation-modal/confirmation-modal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoadingSpinnerComponent
+    LoadingSpinnerComponent,
+    ConfirmationModalComponent
   ],
   imports: [
     BrowserModule,
